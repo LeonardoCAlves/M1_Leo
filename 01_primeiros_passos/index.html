@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>                                /* Área para mexer no estilo */
+        body {                             /* Configurando o corpo da página */
+            background-color: black;     /* Trocando a cor do fundo */
+            color: azure;                /* Trocando a cor das letras */
+            font-family: Fira Code;        /* Trocando a fonte geral */
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Leonardo Alves</h2>                <!-- Colocando título na página  -->
+    <p>Js é legal demais!!!</p>            <!-- Colocando um parágrafo na página  -->
+
+    <script>
+        window.alert('Ialá joguei uma coisa na tela')      // Coloca uma mensagem na tela ao abrir o site, com btn OK
+        window.confirm('PDA é top?')                       // Coloca uma mensagem na tela  ao abrir o site, com btns OK e Cancelar
+       
+        const nome = window.prompt('Digite seu nome: ')    // Criando variável para armazenas o nome digitado na tela
+       
+        // Template string
+        // O ${nome} é chamado de interpolação de expressão
+        // ${nome} insere o valor da variavel nome no texto.
+        // Uso da crase obrigatório para referenciar
+        alert(`Boa noite, ${nome}`)                        // Colocando nome dentro de um template string
+    </script> 
+
+</body>
+</html>
